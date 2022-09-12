@@ -21,10 +21,10 @@ class Rational(x: Int, y: Int) {
 object Q1{
     def main(args: Array[String]):Unit = {
         // Rational numbers
-        val num1 = new Rational(1, 2);
-        val num2 = new Rational(3, -4);
-        val num3 = new Rational(-7, -8);
-        val num4 = new Rational(-5, 6);
+        var num1 = new Rational(1, 2);
+        var num2 = new Rational(3, -4);
+        var num3 = new Rational(-7, -8);
+        var num4 = new Rational(-5, 6);
 
         // Print rational numbers (negation)
         println(num1.neg());
