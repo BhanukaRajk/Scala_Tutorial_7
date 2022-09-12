@@ -17,7 +17,7 @@ class Account(var amount: Float) {
 object Q3{
     def main(args: Array[String]):Unit = {
 
-        // Rational numbers
+        // Accounts and balances
         var ACC1 = new Account(100000);
         var ACC2 = new Account(40000);
 
