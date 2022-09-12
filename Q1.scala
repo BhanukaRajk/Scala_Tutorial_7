@@ -1,7 +1,7 @@
 class Rational(x: Int, y: Int) {
     def Numerator = x;
     def Denominator = y;
-    require(Denominator != 0, "Denominator must be a positive number");
+    require(Denominator != 0, "Denominator must be none zero");
 
     // negation method
     def neg() = {
